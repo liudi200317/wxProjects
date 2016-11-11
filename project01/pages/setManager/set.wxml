@@ -14,9 +14,9 @@
                 <view class="arrow"></view>
             </view>
         </view>
-
-        <button type="primary" size="mini" class="btn mt f14" hover-class="button-hover"> 退出当前账号 </button>
-
+        <view class="set-btn">
+         <button type="primary" size="mini" class="btn mt f14" hover-class="button-hover"> 退出当前账号 </button>
+        </view>
 
     </view>
 </view>
