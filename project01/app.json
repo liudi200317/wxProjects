@@ -3,6 +3,7 @@
     "pages/index/index",
      "pages/user/user",
       "pages/login/login",
+       "pages/setManager/set",
       "pages/logs/logs"
   ],
   "window":{

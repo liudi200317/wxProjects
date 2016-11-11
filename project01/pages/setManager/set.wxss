@@ -1,0 +1,30 @@
+.set-list{
+    padding-left:20rpx;
+    background-color:#fff;
+}
+.set-item{
+    height:60rpx;
+    display: flex;
+    flex-flow:row wrap;
+    align-items:center;
+    overflow: hidden;
+    border-bottom:1px solid #e7e7e7;
+}
+.set-t{
+    flex:1;
+   
+}
+.arrow{
+    content:"";
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border:1px solid;
+    border-color:#ccc #ccc transparent transparent;
+    transform:rotate(45deg);
+    margin-right:20rpx;
+}
+.btn{
+    margin:0 auto;
+    background-color:red;
+}
