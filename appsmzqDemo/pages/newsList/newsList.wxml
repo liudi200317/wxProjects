@@ -1,5 +1,0 @@
-新闻列表
-
-<view class="btn-area">
-  <navigator wx:for="{{newsList}}" wx:key="id" url="../newsDetail/newsDetail?id={{item.id}}" >{{item.id}} 、{{item.title}}</navigator>
-</view>
