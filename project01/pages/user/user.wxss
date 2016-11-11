@@ -1,0 +1,42 @@
+.u-1{
+  height:235rpx;
+  background:url("../../images/u_bg.jpg");
+  background-size:cover;
+  position:relative;
+  color:#fff;
+}
+.u-1 text{
+ 
+}
+.u-1-pic{
+  width:160rpx;
+  height:160rpx;
+  border-radius:50%;
+  padding:5rpx;
+  background-color:rgba(255, 255, 255, .5);
+  position: absolute;
+  bottom:-80rpx;
+  left:40rpx
+
+}
+
+.u-set{
+  display: inline-block;
+  width:120rpx;
+  height:60rpx;
+  background-color:rgba(0, 0, 0, .5);
+  text-align:center;
+  line-height: 60rpx;
+  border-radius:20rpx;
+  float:right;
+  margin:20rpx 20rpx 0 0;
+}
+
+.u-name{
+  float:left;
+  margin:140rpx 0 0 250rpx;
+}
+
+.u-1-pic image{
+  border-radius:50%;
+}

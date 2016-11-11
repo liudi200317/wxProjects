@@ -1,0 +1,19 @@
+<!--logs.wxml-->
+<view class="container">
+
+    <view class="section">
+
+        <view class="u-1">
+            <text class="u-set">设置</text>
+            <text class="u-name">liudi</text>
+            <view class="u-1-pic">
+                <image src="../../images/u_u.jpg"/>
+            </view>
+           
+        </view>
+    
+    </view>
+
+
+
+</view>

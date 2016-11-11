@@ -1,0 +1,9 @@
+<include src="../templates/header" />    
+<button type="default" bindtap="default" hover-class="other-button-hover"> default </button>
+<button type="primary" bindtap="clickFun"> primary </button>
+<view wx:if="{{show}}">{{item.msg}}</view>
+<view wx:else>2</view>
+
+<import src="../templates/footer"/>
+<template is="footer1"  data="{{text:'模版里的内容...'}}"/>
+<template is="footer2" data="{{...item}}"/>

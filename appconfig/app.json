@@ -1,0 +1,37 @@
+{
+  "pages":[
+    
+  
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test"
+    
+  ],
+  "window":{
+    "backgroundColor": "#000",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "window配置项测试",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh":true
+   
+  },
+  "tabBar": {
+    "color":"#333",
+    "selectedColor":"green",
+    "backgroundColor":"pink",
+    "borderStyle":"black",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }, {
+      "pagePath": "pages/test/test",
+      "text": "test"
+    }]
+  }
+}

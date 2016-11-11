@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+
+  <input placeholder="请输入运单号" auto-focus class="input_txt" bindinput="getInputValue"/>
+  <button type="primary" bindtap="btnclick"> 查询 </button>
+  <scroll-view scroll-y="true" style="height: 200px;">
+    <view wx:for="{{expressInfor.data}}">
+    {{item.context}} - [{{item.time}}]
+  </view>
+  </scroll-view>
+</view>
