@@ -14,7 +14,8 @@
   <view class="section">
     <view class="header">
       <text class="header-title">精品推荐</text>
-      <text class="all-pro f12 col1">more</text>
+      <navigator class="all-pro f12 col1" 
+       url="../product/productList"> more </navigator>
     </view>
 
     <view class="pro-list">
@@ -30,7 +31,8 @@
   <view class="section">
     <view class="header">
       <text class="header-title">超值爆品</text>
-      <text class="all-cp f12 col1">more</text>
+      <navigator class="all-cp f12 col1"
+       url="../product/productList"> more </navigator>
     </view>
     <view class="cp-list">
       <view class="cp-item" wx:for="{{listItems}}">
