@@ -7,6 +7,7 @@
     "pages/shoppingCart/shoppingCart",
     "pages/logistics/logistics",
     "pages/product/productList",
+    "pages/API/api",
     "pages/logs/logs"
   ],
   "window":{
@@ -41,6 +42,12 @@
       "text": "我的淘宝",
       "iconPath":"images/wodejuhuasuan.png",
       "selectedIconPath":"images/wodejuhuasuan.png"
+    },
+    {
+      "pagePath": "pages/API/api",
+      "text": "API",
+      "iconPath":"images/api.png",
+      "selectedIconPath":"images/api.png"
     }]
   }
 }
