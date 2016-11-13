@@ -21,16 +21,7 @@
     flex:1;
    
 }
-.arrow{
-    content:"";
-    display: inline-block;
-    width:10px;
-    height:10px;
-    border:1px solid;
-    border-color:#ccc #ccc transparent transparent;
-    transform:rotate(45deg);
-    margin-right:20rpx;
-}
+
 
 .set-btn{
     text-align:center;
