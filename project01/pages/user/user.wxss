@@ -3,10 +3,7 @@
   background-color:#fff;
   /*padding-bottom:20rpx;*/
 }
-.flex{
-  display:flex;
-  align-items:center;
-}
+
 /*u-1 start*/
 .u-1{
   height:235rpx;

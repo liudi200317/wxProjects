@@ -4,11 +4,12 @@
     "pages/user/user",
     "pages/login/login",
     "pages/setManager/set",
+    "pages/api/api",
     "pages/shoppingCart/shoppingCart",
     "pages/logistics/logistics",
     "pages/product/productList",
-    "pages/API/api",
     "pages/logs/logs"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -44,7 +45,7 @@
       "selectedIconPath":"images/wodejuhuasuan.png"
     },
     {
-      "pagePath": "pages/API/api",
+      "pagePath": "pages/api/api",
       "text": "API",
       "iconPath":"images/api.png",
       "selectedIconPath":"images/api.png"

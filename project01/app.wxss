@@ -46,6 +46,12 @@ image{
 .col1{
   color:#999;
 }
+.col3{
+  color:#666;
+}
+.colf{
+  color:#fff;
+}
 .set-bg{
   background-color:#eee;
 }
@@ -73,4 +79,9 @@ image{
 
 .bor-b{
   border-bottom:1px solid #e7e7e7;
+}
+
+.flex{
+  display:flex;
+  align-items:center;
 }
