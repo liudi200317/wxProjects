@@ -5,10 +5,13 @@
     "pages/login/login",
     "pages/setManager/set",
     "pages/api/api",
-    "pages/shoppingCart/shoppingCart",
-    "pages/logistics/logistics",
-    "pages/product/productList",
-    "pages/logs/logs"
+     "pages/api/network/network",
+     "pages/api/network/upload/upload",
+      "pages/api/media/picture/picture",
+      "pages/shoppingCart/shoppingCart",
+      "pages/logistics/logistics",
+      "pages/product/productList",
+      "pages/logs/logs"
     
   ],
   "window":{

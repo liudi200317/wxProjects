@@ -13,7 +13,7 @@
                     <navigator wx:for="{{item.subList}}" url="{{item.url}}" id="{{item.id}}" wx:key="{{item.id}}" class="api-web-n flex bor-b ">
                         <view class="api-web-v">
                             <text>{{item.name}}</text>
-                            <text class="api-desc col1">{{item.desc}}</text>
+                            <text class="api-desc col1 f12">{{item.desc}}</text>
                         </view>
                          <i class="arrow"></i>
                     </navigator>

@@ -1,6 +1,4 @@
-.container{
-    background-color:#eee;
-}
+
 .api-list{
     
 }
@@ -36,17 +34,21 @@
 .show .arrow{
     transform:rotate(-45deg);
 }
+.api-web .arrow{
+    transform:rotate(45deg);
+}
 
 .api-web-n{
-    height:80rpx;
+    height:100rpx;
     padding-right:20rpx;
     margin-left:20rpx;
-
-
 }
 .api-web-v{
     flex:1;
 }
 .api-web-n text{
     display:block;
+}
+.api-desc{
+    margin-top:10rpx;
 }
