@@ -10,6 +10,8 @@
       "pages/api/media/picture/picture",
        "pages/api/media/music/music",
        "pages/api/storage/storage",
+        "pages/api/location/getLocation/getLocation",
+        "pages/api/location/openLocation/openLocation",
       "pages/shoppingCart/shoppingCart",
       "pages/logistics/logistics",
       "pages/product/productList",

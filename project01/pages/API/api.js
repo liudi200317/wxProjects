@@ -38,6 +38,20 @@ Page({
           name:"数据缓存",
           url:"storage/storage"
         }],
+        isOpen:false,
+        openClass:""
+      },{
+        id:"4",
+        name:"位置",
+        subList:[{
+          id:"401",
+          name:"获取位置",
+          url:"location/getLocation/getLocation"
+        },{
+          id:"402",
+          name:"查看位置",
+          url:"location/openLocation/openLocation"
+        }],
         isOpen:true,
         openClass:"show"
       }
