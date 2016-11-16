@@ -1,0 +1,15 @@
+<import src="../../../templates/header.wxml"/>
+<view class="container">
+    <view class="section mt">
+     <template is="header" 
+        data="{{title:'BackgroundAudio',desc:'播放音乐，同时只能有一首音乐正在播放。'}}"/>
+
+        <view class="music-oper flex">
+
+            <button type="primary"  size="mini" bindtap="playMusic"> 播放音乐 </button>
+            <button type="default"  size="mini" bindtap="pauseMusic"> 暂停播放音乐 </button>
+
+        </view>
+       
+    </view>
+</view>

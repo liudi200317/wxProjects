@@ -8,6 +8,8 @@
      "pages/api/network/network",
      "pages/api/network/upload/upload",
       "pages/api/media/picture/picture",
+       "pages/api/media/music/music",
+       "pages/api/storage/storage",
       "pages/shoppingCart/shoppingCart",
       "pages/logistics/logistics",
       "pages/product/productList",

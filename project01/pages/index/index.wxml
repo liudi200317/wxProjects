@@ -12,13 +12,13 @@
   </view>
 
   <view class="section">
-    <view class="header">
+    <view class="header bgf">
       <text class="header-title">精品推荐</text>
       <navigator class="all-pro f12 col1" 
        url="../product/productList"> more </navigator>
     </view>
 
-    <view class="pro-list">
+    <view class="pro-list bgf">
       <view class="pro-item" wx:for="{{proItems}}" wx:key="{{item.id}}">
         <image src="{{item.url}}" mode="scaleToFill"/>
         <view class="pro-title f12">
@@ -29,12 +29,12 @@
   </view>
 
   <view class="section">
-    <view class="header">
+    <view class="header bgf">
       <text class="header-title">超值爆品</text>
       <navigator class="all-cp f12 col1"
        url="../product/productList"> more </navigator>
     </view>
-    <view class="cp-list">
+    <view class="cp-list bgf">
       <view class="cp-item" wx:for="{{listItems}}">
         <view class="cp-pic">
           <image src="{{item.url}}"/>

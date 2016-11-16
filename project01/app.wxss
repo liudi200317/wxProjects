@@ -1,6 +1,7 @@
 /**app.wxss**/
 page{
   min-height:100%;
+   background-color:#eee;
 }
 .container {
   height: 100%;
@@ -9,7 +10,6 @@ page{
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  /*background-color:#e70b26;*/
 } 
 .section{
   width:100%;
@@ -99,13 +99,14 @@ image{
 .api-txt{
     display: flex;
     line-height:1.5;
-    padding:60rpx;
+    padding:30rpx;
     
 }
-.container{
-    background-color:#eee;
-}
+
 .bgf{
   background-color:#fff;
+}
+.palceholder-c{
+  color:#999;
 }
 /*api 共用样式 end*/

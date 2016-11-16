@@ -6,17 +6,15 @@ Page({
         subList:[{
           id:"101",
           name:"发起请求",
-          desc:"wx.request",
           url:"network/network"
         },
         {
           id:"102",
           name:"上传、下载",
-          desc:"wx.uploadFile、wx.downloadFile",
           url:"network/upload/upload"
         }],
         isOpen:false,
-        openClass:"no",
+        openClass:"",
         animationData:{}
       },{
         id:"2",
@@ -24,11 +22,24 @@ Page({
         subList:[{
           id:"201",
           name:"图片",
-          desc:"wx.chooseImage",
           url:"media/picture/picture"
+        },{
+          id:"201",
+          name:"音乐播放控制",
+          url:"media/music/music"
         }],
         isOpen:false,
-        openClass:"no"
+        openClass:""
+      },{
+        id:"3",
+        name:"数据",
+        subList:[{
+          id:"301",
+          name:"数据缓存",
+          url:"storage/storage"
+        }],
+        isOpen:true,
+        openClass:"show"
       }
       ]
   },
