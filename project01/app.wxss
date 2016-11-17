@@ -109,4 +109,16 @@ image{
 .palceholder-c{
   color:#999;
 }
+.section-show{
+  padding:40rpx 0;
+  justify-content: center;
+}
+.showLocation text{
+    display: flex;
+    align-items: center;
+    height:80rpx;
+    background-color:#fff;
+    margin-top:20rpx;
+    padding:0 20rpx;
+}
 /*api 共用样式 end*/

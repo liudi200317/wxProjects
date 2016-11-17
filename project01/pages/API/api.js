@@ -52,6 +52,20 @@ Page({
           name:"查看位置",
           url:"location/openLocation/openLocation"
         }],
+        isOpen:false,
+        openClass:""
+      },{
+        id:"5",
+        name:"设备",
+        subList:[{
+          id:"501",
+          name:"网络状态",
+          url:"equipment/NetworkType/NetworkType"
+        },{
+          id:"502",
+          name:"系统信息",
+          url:"equipment/systemInfo/systemInfo"
+        }],
         isOpen:true,
         openClass:"show"
       }
