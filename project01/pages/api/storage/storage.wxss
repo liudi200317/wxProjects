@@ -1,11 +1,3 @@
-.s-section{
-    height:80rpx;
-}
-.s-section input{
-    background-color:#fff;
-    height:100%;
-    padding:0 20rpx;
-}
 
 .s-section input:first-child{
     flex:1;

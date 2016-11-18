@@ -65,6 +65,32 @@ Page({
           id:"502",
           name:"系统信息",
           url:"equipment/systemInfo/systemInfo"
+        },{
+          id:"503",
+          name:"重力感应",
+          url:"equipment/systemInfo/systemInfo"
+        },{
+          id:"504",
+          name:"罗盘",
+          url:"equipment/systemInfo/systemInfo"
+        },{
+          id:"505",
+          name:"拨打电话",
+          url:"equipment/phoneCall/phoneCall"
+        }],
+        isOpen:false,
+        openClass:""
+      },{
+        id:"6",
+        name:"界面",
+        subList:[{
+          id:"601",
+          name:"交互反馈",
+          url:"interface/showToast/showToast"
+        },{
+          id:"602",
+          name:"设置导航条",
+          url:"interface/navigationBarTitle/navigationBarTitle"
         }],
         isOpen:true,
         openClass:"show"

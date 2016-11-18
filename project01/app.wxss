@@ -121,4 +121,10 @@ image{
     margin-top:20rpx;
     padding:0 20rpx;
 }
+input {
+  background-color:#fff;
+  height:80rpx;
+  padding:0 20rpx;
+
+}
 /*api 共用样式 end*/
