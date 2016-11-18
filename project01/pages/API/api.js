@@ -117,7 +117,6 @@ Page({
           break;
         }
       }
-
       this.setData({apiList:_apiList});
   }
 
