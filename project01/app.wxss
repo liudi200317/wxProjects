@@ -114,12 +114,15 @@ image{
   justify-content: center;
 }
 .showLocation text{
+  width:100%;
+  box-sizing:border-box;
     display: flex;
     align-items: center;
-    height:80rpx;
+    /*height:80rpx;*/
     background-color:#fff;
     margin-top:20rpx;
-    padding:0 20rpx;
+    padding:30rpx 20rpx;
+    /*flex-flow: row wrap;*/
 }
 input {
   background-color:#fff;

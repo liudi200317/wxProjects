@@ -1,6 +1,12 @@
+
+var util = require('../../../../utils/util.js')
 Page({
   data:{
-   
+   status:"",
+   dataUrl:"",
+   currentPosition:"",
+   duration:"",
+   downloadPercent:""
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
@@ -27,7 +33,25 @@ Page({
         })
   },
   pauseMusic:function(){
-
+    wx.pauseBackgroundAudio()
+  },
+  stopMusic:function(){
+    wx.stopBackgroundAudio()
   }
+  // playerState:function(){
+  //   var that = this
+  //   wx.getBackgroundAudioPlayerState({
+  //       success: function(res) {
+    
+  //           that.setData({
+  //             status:res.status,
+  //             dataUrl:res.dataUrl,
+  //             currentPosition:util.formateTime(res.currentPosition),
+  //             duration:res.util.formateTime(res.duration),
+  //             downloadPercent:res.downloadPercent
+  //           })
+  //       }
+  //   })
+  // }
 
 })
