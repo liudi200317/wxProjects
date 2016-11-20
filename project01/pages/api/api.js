@@ -91,6 +91,19 @@ Page({
           id:"602",
           name:"设置导航条",
           url:"interface/navigationBarTitle/navigationBarTitle"
+        },{
+          id:"603",
+          name:"导航",
+          url:"interface/navigate/navigate"
+        },{
+          id:"604",
+          name:"动画",
+          url:"interface/animate/animate"
+        }
+        ,{
+          id:"605",
+          name:"绘图",
+          url:"interface/canvas/canvas"
         }],
         isOpen:true,
         openClass:"show"

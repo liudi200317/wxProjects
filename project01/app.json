@@ -1,23 +1,27 @@
 {
-  
+
 "pages":[
 "pages/index/index",
 "pages/user/user",
 "pages/login/login",
 "pages/setManager/set",
-"pages/API/api",
-"pages/API/network/network",
-"pages/API/network/upload/upload",
-"pages/API/media/picture/picture",
-"pages/API/media/music/music",
-"pages/API/storage/storage",
-"pages/API/location/getLocation/getLocation",
-"pages/API/location/openLocation/openLocation",
-"pages/API/equipment/NetworkType/NetworkType",
-"pages/API/equipment/systemInfo/systemInfo",
-"pages/API/equipment/phoneCall/phoneCall",
-"pages/API/interface/showToast/showToast",
-"pages/API/interface/navigationBarTitle/navigationBarTitle",
+"pages/api/api",
+"pages/api/network/network",
+"pages/api/network/upload/upload",
+"pages/api/media/picture/picture",
+"pages/api/media/music/music",
+"pages/api/storage/storage",
+"pages/api/location/getLocation/getLocation",
+"pages/api/location/openLocation/openLocation",
+"pages/api/equipment/NetworkType/NetworkType",
+"pages/api/equipment/systemInfo/systemInfo",
+"pages/api/equipment/phoneCall/phoneCall",
+"pages/api/interface/showToast/showToast",
+"pages/api/interface/navigationBarTitle/navigationBarTitle",
+"pages/api/interface/navigate/navigate",
+"pages/api/interface/navigate/test",
+"pages/api/interface/animate/animate",
+"pages/api/interface/canvas/canvas",
 "pages/shoppingCart/shoppingCart",
 "pages/logistics/logistics",
 "pages/product/productList",
@@ -58,10 +62,10 @@
 "selectedIconPath":"images/wodejuhuasuan.png"
 },
 {
-"pagePath": "pages/API/api",
-"text": "API",
-"iconPath":"images/API.png",
-"selectedIconPath":"images/API.png"
+"pagePath": "pages/api/api",
+"text": "api",
+"iconPath":"images/api.png",
+"selectedIconPath":"images/api.png"
 }]
 }
 }

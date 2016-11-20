@@ -127,4 +127,10 @@ input {
   padding:0 20rpx;
 
 }
+.section-btn{
+  flex-flow:row wrap;
+}
+.section-btn button{
+  width:40%;
+}
 /*api 共用样式 end*/
