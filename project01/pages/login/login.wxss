@@ -8,4 +8,42 @@
     color:red;
     display: block;
     font-size:14px;
+     padding:0 20rpx;
+}
+
+.login-tips{
+    display: flex;
+    height:100rpx;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.r-1{
+    padding:0 20rpx;
+    
+}
+.label-text,.r-1 input{
+    height:80rpx;
+    line-height: 80rpx;
+}
+.r-1 input{
+    border:none;
+    padding:0;
+    margin:0;
+}
+.label-text{
+    width:180rpx;
+}
+button.bgc-orage{
+    background-color:#f40;
+    margin:20rpx;
+}
+.login-btn.button-hover{
+  background-color:red;
+}
+
+.other-link{
+    justify-content: space-between;
+    padding:20rpx;
 }

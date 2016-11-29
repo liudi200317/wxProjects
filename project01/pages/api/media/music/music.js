@@ -37,7 +37,19 @@ Page({
   },
   stopMusic:function(){
     wx.stopBackgroundAudio()
-  }
+  },
+  // playerState:function(){
+  //   var that = this;
+  //   wx.getBackgroundAudioPlayerState({
+  //     success:function(res){
+  //       that.setData({
+  //         status:res.status,
+  //         dataUrl:res.dataUrl,
+
+  //       })
+  //     }
+  //   })
+  // }
   // playerState:function(){
   //   var that = this
   //   wx.getBackgroundAudioPlayerState({

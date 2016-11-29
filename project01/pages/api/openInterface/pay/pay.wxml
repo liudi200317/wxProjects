@@ -1,0 +1,10 @@
+<import src="../../../templates/header.wxml"/>
+<view class="container">
+    <view class="section mt">
+         <template is="header" 
+        data="{{title:'wx.requestPayment',desc:'发起微信支付'}}"/>
+      
+        <!--<button type="primary" class="mt" bindtap="paySub"> pay </button>-->
+
+    </view>
+</view>

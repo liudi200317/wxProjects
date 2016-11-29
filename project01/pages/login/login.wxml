@@ -1,8 +1,19 @@
 <view class="container">
   <view class="section"> 
-    <input  maxlength="10" placeholder="用户名" class="input-style" bindinput="getUserName"/>
-    <input  maxlength="10" placeholder="密码" class="input-style" bindinput="getPassword"/>
-    <button type="primary" bindtap="login"> 登录 </button>
+     <text class="login-tips">您需要登录才能继续访问</text>
+     <view class="r-1 flex bgf bor-b">
+     <label class="label-text" for=""><text>账户</text></label>
+    <input  maxlength="10" class="input-style" bindinput="getUserName"/>
+    </view>
+    <view class="r-1 flex bgf">
+    <label class="label-text" for=""><text>登录密码</text></label>
+    <input  maxlength="10"class="input-style" bindinput="getPassword"/>
+    </view>
+    <button type="primary" class="login-btn bgc-orage mt" hover-class="button-hover" bindtap="login"> 登录 </button>
     <text class="error mt">{{errorMsg}}</text>
+    <view class="other-link f14 flex">
+      <navigator url="#">免费注册</navigator>
+      <navigator url="#">忘记密码</navigator>
+    </view>
   </view>
 </view>

@@ -22,6 +22,8 @@
 "pages/api/interface/navigate/test",
 "pages/api/interface/animate/animate",
 "pages/api/interface/canvas/canvas",
+"pages/api/openInterface/login/login",
+"pages/api/openInterface/pay/pay",
 "pages/shoppingCart/shoppingCart",
 "pages/logistics/logistics",
 "pages/product/productList",

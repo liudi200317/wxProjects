@@ -105,6 +105,24 @@ Page({
           name:"绘图",
           url:"interface/canvas/canvas"
         }],
+        isOpen:false,
+        openClass:""
+      },{
+        id:"7",
+        name:"开放接口",
+        subList:[{
+          id:"701",
+          name:"登录",
+          url:"openInterface/login/login"
+        },{
+          id:"702",
+          name:"用户信息",
+          url:"openInterface/login/login"
+        },{
+          id:"703",
+          name:"微信支付",
+          url:"openInterface/pay/pay"
+        }],
         isOpen:true,
         openClass:"show"
       }

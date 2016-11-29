@@ -14,12 +14,10 @@
         </view>
 
         <view class="music-oper flex">
-
-            <button type="primary"  size="mini" bindtap="playMusic"> 播放音乐 </button>
-            <button type="default"  size="mini" bindtap="pauseMusic"> 暂停音乐 </button>
-            <button type="default"  size="mini" bindtap="stopMusic"> 停止音乐 </button>
-            <button type="default"  size="mini" bindtap="playerState"> 播放状态 </button>
-
+            <button type="primary" size="mini" bindtap="playMusic"> 播放音乐 </button>
+            <button type="default" size="mini" bindtap="pauseMusic"> 暂停音乐 </button>
+            <button type="default" size="mini" bindtap="stopMusic"> 停止音乐 </button>
+            <button type="default" size="mini" bindtap="playerState"> 播放状态 </button>
         </view>
        
     </view>

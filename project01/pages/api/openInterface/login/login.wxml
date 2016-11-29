@@ -1,0 +1,17 @@
+<import src="../../../templates/header.wxml"/>
+<view class="container">
+    <view class="section mt">
+         <template is="header" 
+        data="{{title:'wx.login',desc:'调用接口获取登录凭证（code）进而换取用户登录态信息，包括用户的唯一标识（openid） 及本次登录的 会话密钥（session_key）。用户数据的加解密通讯需要依赖会话密钥完成。'}}"/>
+       <view class="showLocation">
+       <image style="width: 50px; height: 50px; background-color: #eeeeee;border-radius:50%;" mode="" src="{{userInfo.avatarUrl}}"></image>
+            <text>用户名：{{userInfo.nickName}}</text>
+            <text>性别：{{userInfo.gender}}</text>
+            <text>province：{{userInfo.province}}</text>
+            <text>city：{{userInfo.city}}</text>
+            <text>country：{{userInfo.country}}</text>
+        </view>
+    <button type="primary" class="mt" bindtap="login"> login </button>
+
+    </view>
+</view>
