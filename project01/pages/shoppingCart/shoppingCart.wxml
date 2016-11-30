@@ -1,1 +1,56 @@
-购物车
+<view class="container set-bg">
+    <view class="shop-main">
+        <view class="section sec-1 bgcg">
+            <text class="f20">商品数(120)</text>
+            <text class="sec-editor f14">编辑</text>
+        </view>
+        <view class="section sec-2 bor-b">
+            <view class="shopList bgf" wx:for="{{items}}" wx:key="*this" id='{{item.sid}}'>
+                <view class="sec-2-item flex bgf pl pr">
+                    <checkbox-group bindchange="checkboxChange" class="sec-chk">
+                        <label class="checkbox" >
+                            <checkbox value="1" checked="" />
+                            <text class="f17 ml">{{item.shopName}}</text>
+                        </label>
+                    </checkbox-group>
+                    <text class="sec-editor-c f14"><text class="line">|</text> 编辑</text>
+                </view>
+            
+                <view class="sec-2-item-i bgcg pl pr flex" wx:for="{{item.proList}}" wx:key="*this">
+                    <checkbox-group bindchange="checkboxChange" class="sec-chk-c">
+                        <checkbox value="1" checked="" />
+                    </checkbox-group>
+                    <image src="{{item.pUrl}}" class="sc-image ml"></image>
+                    <view class="sc-desc ml f17">
+                        <text class="sc-title">{{item.proName}}</text>
+                        <view class="sc-n f14 flex mt">
+                            <text class="col4">¥{{item.price}}</text>
+                            <text>x{{item.num}}</text>
+                        </view>
+                    
+                    </view>
+
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="section oper-all bgf flex bor-t">
+        <view class="ml">
+            <checkbox-group bindchange="checkboxChange" class="sec-chk-c">
+                            <checkbox value="1" checked="" />
+            </checkbox-group>
+            <text class="ml">全选</text>
+        </view>
+        <view class="oper-sub flex mr">
+            <view class="oper-p">
+                <text class="">合计：<text class="col4">1789</text></text>
+                <text class="oper-t2 f12 col5">不含运费</text>
+            </view>
+            <button type="primary" size="mini" bindtap="primary" class="btn ml"> 结算(4) </button>
+        </view>
+
+    </view>
+    
+
+
+</view>
